@@ -4,6 +4,6 @@ const fntclr = document.getElementById("fontcolor")
 const fntsz = document.getElementByID("fontsize")
 
 btn.addEventListener("click",()=>{
-	document.cookie = "fontcolor": fntclr.value
-	document.cookie = "fontsize": fntsz.value
+	document.cookie = "fontcolor" fntclr.value
+	document.cookie = "fontsize" fntsz.value
 })
